@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+nav {
+  flex: 1;
+  text-align: right;
+}
+
+nav ul {
+  display: inline-block;
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #555;
+}
+
+p {
+  color: #555;
+}
+
+.container {
+  max-width: 100%;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+  background-color: antiquewhite;
+  height: 100px;
+}
+#headingforcontact{
+    color: black;
+    margin: 100px auto 0px auto;
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+
+.contact1{
+    width: 1400px;
+    height: 700px;
+    margin: 0 150px 0 100px;
+}
+.contact2{
+    width: 400px;
+    height: 400px;
+    margin-left: 50px;
+    margin-bottom: 0px;
+    float: left;
+}
+.contact3{
+    float: left;
+    width: 600px;
+    height: 600px;
+    margin: 50px 25px 0 200px;
+    padding-left: 100px;
+    
+}
+#imageofcontact{
+    width: 400x;
+    height: 200px;
+    margin-left: 200px;
+    margin-top: 200px;
+    transition: all 0.4s ease-in-out;
+}
+#imageofcontact:hover{
+    transform: scale(1.1);
+    box-shadow: 1px 1px 4px #000000;
+}
+.elementofcontact{
+    width:300px;
+    margin-top: 25px;
+    
+   
+}
+.firstname{
+    margin-top: 50px;
+    padding-left: 20px;
+    width: 450px;
+    height: 45px;
+    border-radius: 20px;
+    text-align: left;
+    background-color: antiquewhite;
+    text-decoration-color: black;
+    transition: all 0.4s ease-in-out;
+}
+.firstname:hover{
+    transform: scale(1.1);
+    box-shadow: 1px 1px 4px #000000;
+}
+.yourquestion{
+    margin-top: 50px;
+    padding-left: 20px;
+    width: 450px;
+    height: 90px;
+    border-radius: 20px;
+    text-align: left;
+    background-color: antiquewhite;
+    text-decoration-color: black;
+    transition: all 0.4s ease-in-out;
+}
+.yourquestion:hover{
+    transform: scale(1.1);
+    box-shadow: 1px 1px 4px #000000;
+}
+.aboutbutton{
+    margin-top: 50px;
+    margin-left: 95px;
+    width: 300px;
+    height: 45px;
+    border-radius: 20px;
+    text-align: center;
+    background-color:burlywood;
+    text-decoration-color: black;
+    transition: all 0.4s ease-in-out;
+    
+}
+.aboutbutton:hover{
+    transform: scale(1.1);
+    box-shadow: 1px 1px 4px #000000;
+}
+.socialmedialinks{
+    width: 1400px;
+    height:100px;
+    margin-left: 300px;
+    margin-bottom: 50px;
+    
+}
+#socialmedialinktitle{
+    padding-top: 30px;
+    padding-left: 30px;
+    float: left;
+}
+.socialmedialogos{
+    width: 59px;
+    height: 59px;
+    margin:20px 20px 20px 30px;;
+    transition: all 0.4s ease-in-out;
+}
+.socialmedialogodiv{
+    margin-left: 60px;
+    margin-right: 0px;
+    width: 500px;
+    height: 100px;
+    float: left;
+    
+}
+    
+.socialmedialogos:hover{
+    transform: scale(1.2);
+    box-shadow: 1px 1px 3px #000000;
+    overflow: auto;
+}
