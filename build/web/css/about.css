@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+nav {
+  flex: 1;
+  text-align: right;
+}
+
+nav ul {
+  display: inline-block;
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #555;
+}
+
+
+.container {
+  max-width: 100%;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+  background-color: antiquewhite;
+  height: 100px;
+}
+#MenuItems li{
+    padding-bottom:8px; 
+}
+
+#MenuItems li a:hover{
+    display: inline-block;
+    vertical-align: middle;
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgb(0 0 0 / 0%);
+    transition-duration: 0.3s;
+    transition-property: transform;
+    color:purple;
+}
+
+.pagetitle{
+    margin-top: 50px;
+    margin-left: 150px;
+}
+.cont-2{
+    border: 5px outset #555;
+    width: 80%;
+    height: 500px;    
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    padding-top: 0;
+    margin-bottom: 50px;
+    background-color: antiquewhite;
+    border-radius: 15px;
+    transition: all 0.4s ease-in-out;
+}
+.cont-2:hover{
+    transform: scale(1.01);
+}
+
+p{
+    color: black;
+}
+.aboutexplain{
+    width: 1000px;
+    font-size: 25px;
+    margin: 80px 70px 70px 70px;
+    opacity:none;
+    float: left;
+    position: absolute;
+    
+}
+
+.socialmedialinks{
+    width: 1400px;
+    height:100px;
+    margin-left: 400px;
+    margin-bottom: 50px;
+    
+}
+#socialmedialinktitle{
+    padding-top: 30px;
+    padding-left: 30px;
+    float: left;
+}
+.socialmedialogos{
+    width: 59px;
+    height: 59px;
+    margin:20px 20px 20px 30px;
+    overflow: hidden;
+    transition: all 0.4s ease-in-out;
+}
+.socialmedialogodiv{
+    margin-left: 60px;
+    margin-right: 0px;
+    width: 500px;
+    height: 100px;
+    float: left;
+    
+}
+    
+.socialmedialogos:hover{
+    transform: scale(1.2);
+    box-shadow: 1px 1px 3px #000000;
+    overflow: auto;
+}
+.imagefordecoration{
+    float: left;
+    margin:0px auto 10px 240px;
+    width: 600px;
+    height: 350px;
+}
+
+
+
+
